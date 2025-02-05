@@ -287,7 +287,6 @@ footer .logotype{
 }
 
 
-
 /* MAIN */
 main{
     min-height: 85vh;
@@ -295,10 +294,25 @@ main{
     background-color: var(--secondary-blue);
 }
 
-main.chi-siamo .main-col,main.as-2425 .main-col{
+main.chi-siamo .main-col,main.as-2425 .main-col, main.attività-didattiche .main-col, main.uscite-didattiche .main-col, main.info-documenti .main-col,main.contatti .main-col{
     background-color: var(--main-white);
     border-radius: 10px;
 
+}
+
+h2 span{
+    font-family: gluten !important;
+}
+
+.as-2425 ul, .uscite-didattiche ul{
+    font-family: comfortaa;
+}
+
+@media screen and (min-width: 1400px){
+    .main-col{
+        padding-left: 200px !important;
+        padding-right: 200px !important;
+    }
 }
 
 /* HOME */
@@ -346,7 +360,7 @@ main.chi-siamo .main-col,main.as-2425 .main-col{
 /* AS */
 
 
-main.as-2425 .frame{
+main.as-2425 .frame, main.attività-didattiche .frame{
     background-color: var(--main-white);
     border-radius: 50%;
     height: 200px;
@@ -365,5 +379,71 @@ main.as-2425 .frame{
 }
 .lab-3{
     background-image: url(../assets/img/lettura\ con\ animali.jpg);
+}
+.lab-4{
+    background-image: url(../assets/img/sperimentazioni_artistiche.jpg);  
+}
+.lab-5{
+    background-image: url(../assets/img/manipolazione_travasi.jpg);  
+}
+.lab-6{
+    background-image: url(../assets/img/percorso_sensoriale.jpg);  
+}
+
+.lab-7{
+    background-image: url(../assets/img/seminiamo\ per\ crescere.jpg);  
+}
+.lab-8{
+    background-image: url(../assets/img/scienze\ e\ matematica.jpg);  
+}
+.lab-9{
+    background-image: url(../assets/img/lingua\ straniera\ -\ inglese.png);  
+}
+.lab-10{
+    background-image: url(../assets/img/musica.jpg);
+}
+.lab-11{
+    background-image: url(../assets/img/educazione\ alimentare.jpg);
+}
+.lab-12{
+    background-image: url(../assets/img/educazione\ civico-stradale.png);
+}
+.lab-13{
+    background-image: url(../assets/img/scuola\ outdoor.jpg);
+}
+.lab-14{
+    background-image: url(../assets/img/abc.jpg);
+}
+.lab-15{
+    background-image: url(../assets/img/coding.jpg);
+}
+.lab-16{
+    background-image: url(../assets/img/IRC\ religione.jpg);
+}
+.lab-17{
+    background-image: url(../assets/img/biblioteca.jpg);
+}
+
+
+/* INFO E DOCUMENTI */
+
+
+.download-button{
+    text-decoration: none !important;
+    background-color: var(--main-yellow);
+    border:none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    font-family: comfortaa;
+    font-weight: 700;
+    color: var(--main-red);
+    padding: 0.6rem 1.2rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.download-button:hover, .download-button:active{
+    background-color: var(--secondary-blue) !important;
 }
 

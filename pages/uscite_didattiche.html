@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <meta name="description" content="I Leoncini - scuola materna e asilo nido - Cislago">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="I Leoncini">
+  <meta property="og:description" content="I Leoncini - scuola materna e asilo nido - Cislago">
+  <!-- url -->
+  <meta property="og:url" content="">
+  <!-- url -->
+  <meta property="og:site_name" content="I Leoncini - scuola materna e asilo nido - Cislago">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:label1" content="Est. reading time">
+  <meta name="twitter:data1" content="2 minutes">
+  <link rel="icon" type="image/png" href="../favicon.png" />
+  <link rel="apple-touch-icon" href="../favicon.png">
+
+  <link href="../bootstrap/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="../aos/aos.css" rel="stylesheet" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../css/generic.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>I Leoncini</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="container-fluid header-top">
+    <div class="row">
+      <div id="menuCol" class="col-12">
+        <a class="link-logo pe-2 pe-xl-5" id="headerTitle" aria-label="I Leoncini logo" href="../index.html">
+          <h1 class="d-flex flex-nowrap">
+            <img src="../assets/img/pittogramma.png" alt="" srcset="">
+            <img src="../assets/img/logotipo.png" alt="" srcset="">
+          </h1>
+        </a>
+        <div id="spinnerHome" class="spinner-border mt-4" role="status">
+        </div>
+        <ul id="ulNav" class="ul-nav d-none align-items-center ps-0 ps-xl-5">
+          <a href="./chi_siamo.html">
+            <li class="harlequin">Chi siamo</li>
+          </a>
+          <div class="dropdown">
+            <a href="#" class="d-flex align-items-center dropdown-toggle" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span class="harlequin">Progetto</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="./as_2425.html" class="dropdown-item">A.S. 2024/2025</a></li>
+              <li><a href="./attività_didattiche.html" class="dropdown-item">Attività didattiche</a></li>
+              <li><a href="#" class="dropdown-item">Uscite didattiche</a></li>
+            </ul>
+          </div>
+
+          <a href="./info_documenti.html">
+            <li class="harlequin">Info e documenti</li>
+          </a>
+          <a href="./eventi.html">
+            <li class="harlequin">Eventi</li>
+          </a>
+          <a href="./contatti.html">
+            <li class="harlequin">Contatti</li>
+          </a>
+        </ul>
+
+        <!-- hamburger menu -->
+        <a id="hamburgerMenu" class="ms-auto hamburger d-none" data-bs-toggle="offcanvas" href="#offcanvasExample"
+          role="button" aria-controls="offcanvasExample">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+        <!-- hamburger menu end-->
+
+        <!-- sidebar -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <a href="../index.html">
+              <h2 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="../assets/img/pittogramma.png" alt="" srcset="">
+                <img src="../assets/img/logotipo.png" alt="" srcset="">
+              </h2>
+            </a>
+            <a class="ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+              <i class="fa-solid fa-x m-3 sidebar-close"></i>
+            </a>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="ul-nav  d-flex flex-column align-items-center ps-0 ps-xl-5">
+              <a href="./chi_siamo.html">
+                <li class="harlequin">Chi siamo</li>
+              </a>
+
+              <a class="dropdown-toggle d-flex align-items-center" id="headingTwo" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <li class="harlequin">Progetto</li>
+              </a>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#treeMenu">
+                <div class="accordion-body">
+                  <ul class="list-unstyled">
+                    <li><a href="./as_2425.html">
+                        A.S. 2024/2025
+                      </a></li>
+                    <li> <a href="./attività_didattiche.html">
+                        Attività didattiche
+                      </a></li>
+                    <li><a href="#">
+                        Uscite didattiche
+                      </a></li>
+                  </ul>
+                </div>
+              </div>
+              <a href="./info_documenti.html">
+                <li class="harlequin">Info e documenti</li>
+              </a>
+              <a href="./eventi.html">
+                <li class="harlequin">Eventi</li>
+              </a>
+              <a href="./contatti.html">
+                <li class="harlequin">Contatti</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <!-- sidebar end -->
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+  <main class="uscite-didattiche">
+    <div class="row justify-content-center text-center">
+      <div class="col-12 col-lg-7  p-5 main-col my-5 shadow d-flex flex-column align-items-center">
+        <h2 class="mt-5 display-1 harlequin">USCITE</h2>
+        <h2 class="display-1 harlequin">DIDATTICHE</h2>
+        
+        <ul class="px-md-5 text-justify">
+          <li>Gita Scolastica: con genitori e scuola in primavera.</li>
+          <li>Biblioteca di Cislago: con genitori e scuola.</li>
+          <li>Parco Pineta di Appiano Gentile e Tradate/Parco degli Aironi di Gerenzano:
+            con genitori e scuola.</li>
+          <li>Teatro Giuditta Pasta di Saronno: con le famiglie la domenica pomeriggio.</li>
+        </ul>
+
+        
+      </div>
+    </div>
+
+  </main>
+  <!-- footer -->
+  <footer class="container-fluid">
+    <div class="row p-5 justify-content-center">
+      <div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-0 d-flex flex-column align-items-center align-items-md-start">
+        <img src="../assets/img/logotipo.png" alt="" srcset="" class="logotype mb-5">
+        <p class="text-center text-md-start">
+          Scuola dell'Infanzia Paritaria I Leoncini <br>
+          Via Cavalieri di Vittorio Veneto n. 241 <br>
+          21040 Cislago (VA)<br>
+          Tel. 0230068965 - Cell. 3395934140<br>
+          Mail: segreteria.ileoncini@gmail.com
+        </p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 text-center text-md-end">
+        <h3 class="mb-4 display-6">Vieni a trovarci sui social!</h3>
+        <div class="social-container align-items-center align-items-md-end me-md-3">
+          <a target="_blank" href="https://www.instagram.com/ileonciniasilonido/">
+            <i class="fa-brands fa-instagram mb-3"></i>
+          </a>
+          <a target="_blank" href="https://www.facebook.com/p/I-leoncini-100063225460544/?locale=it_IT">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+
+</body>
+<script src="../bootstrap/bootstrap.js" crossorigin="anonymous"></script>
+<script src="../aos/aos.js" crossorigin="anonymous"></script>
+<script>
+  AOS.init();
+</script>
+<script src="../js/header.js"></script>
+<script src="../js/harlequin.js"></script>
+
+</html>
