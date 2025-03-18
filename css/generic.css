@@ -294,7 +294,7 @@ main{
     background-color: var(--secondary-blue);
 }
 
-main.chi-siamo .main-col,main.as-2425 .main-col, main.attività-didattiche .main-col, main.uscite-didattiche .main-col, main.info-documenti .main-col,main.contatti .main-col{
+main.chi-siamo .main-col,main.as-2425 .main-col, main.attività-didattiche .main-col, main.uscite-didattiche .main-col, main.info-documenti .main-col,main.contatti .main-col, main.home .main-col{
     background-color: var(--main-white);
     border-radius: 10px;
 
@@ -318,7 +318,7 @@ h2 span{
 /* HOME */
 
 .hero{
-    background-image: url("../assets/img/hero.jpg");
+    background: linear-gradient(transparent, rgba(0,0,0,0.7)), url(../assets/img/hero.jpg);
     min-height: 85vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -328,8 +328,8 @@ h2 span{
 }
 
 .hero-logo{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     background-color: var(--main-white);
     border-radius: 50%;
     background-size: contain;
@@ -352,6 +352,24 @@ h2 span{
 }
 .home .row .col-10{
     background-color: var(--main-white);
+}
+.quote{
+    margin-bottom: 230px;
+    background-color:rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px);
+    border-radius:12px
+}
+
+@media screen and (max-width:991px){
+    .quote{
+        margin-bottom: 50px;
+   
+    }
+    .hero{
+    
+        background-position: 25%;
+
+    }
 }
 /* CHI SIAMO */
 
