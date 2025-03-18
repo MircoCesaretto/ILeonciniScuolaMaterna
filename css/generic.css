@@ -114,6 +114,7 @@ header.header-top {
     align-items: center;
     transition: 0.8s;
     z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 10px 10px;
 }
 
 header.header-top .row {
@@ -225,9 +226,9 @@ header .dropdown-menu .dropdown-item{
     header .dropdown-menu .dropdown-item{
         font-size: 18px;
     }
-    .ul-nav a, header .accordion-item a.accordion-header{
+    /* .ul-nav a, header .accordion-item a.accordion-header{
        margin-left: 0px
-    }
+    } */
 
 }
 
