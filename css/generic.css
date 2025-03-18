@@ -301,7 +301,7 @@ main{
 main.chi-siamo .main-col,main.as-2425 .main-col, main.attività-didattiche .main-col, main.uscite-didattiche .main-col, main.info-documenti .main-col,main.contatti .main-col, main.home .main-col{
     background-color: var(--main-white);
     border-radius: 10px;
-
+    margin:0;
 }
 
 h2 span{
