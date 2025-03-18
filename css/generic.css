@@ -247,6 +247,9 @@ footer{
     background-color: var(--main-white);
     height: 300px;
 }
+footer .row{
+    background-color: var(--main-white); 
+}
 footer .logotype{
     height: 50px;
 }
